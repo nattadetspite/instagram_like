@@ -1,0 +1,91 @@
+body {
+}
+
+.nav-bar {
+  /* background-color: cornsilk; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-content {
+  max-width: 720px;
+  margin: auto;
+}
+.content {
+  /* background-color: rosybrown; */
+}
+
+.comment {
+  /* background-color: salmon; */
+}
+
+.content-profile {
+  /* background-color: sandybrown; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-space-between div h2 {
+  margin: 0;
+}
+.flex-space-between div p {
+  margin: 0;
+}
+
+.action-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+i {
+  padding: 1rem;
+}
+
+i:hover {
+  background-color: royalblue;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 1rem;
+}
+
+#comment-time {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.comment-tag {
+  margin: 0;
+  display: inline;
+}
+
+#profile-image {
+  width: 2.6rem;
+  height: 2.6rem;
+  margin: 0.2rem;
+}
+
+.image-wrapper {
+  width: 100%;
+}
+#content-image {
+  width: 100%;
+  max-width: 720px;
+}
